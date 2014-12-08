@@ -1,0 +1,124 @@
+        /*   MELLAN LÄGET (Mindre Laptop) 3 kolumner   */
+@media all and (max-width: 1280px) and (min-width:950px){
+  
+  .outer {
+  width: 825px;
+  }
+  .log-head {
+  min-width: 45%;
+  height: 80px;
+  }
+  .button {
+  width: 80px;
+  height: 80px;
+  }
+  button:hover .button-hover {
+  margin-top: 60px;
+  }
+  .product4, .soc4 {
+  display: none;
+  }
+  .product3, .soc3 {
+  margin:0px;
+  }
+  .product {
+    margin-right: 20px;
+    margin-top: 20px;}
+}
+
+           /*  MEDI LÄGET (PADDA) 2 kolumner  */
+@media all and (max-width: 950px) and (min-width: 670px) {
+
+  .outer {
+  width: 550px;
+  }
+  .log-head, .button-head, .button {
+  height: 70px;
+  } 
+  .log-head {
+    min-width: 33%;
+  }
+  .button {
+    width: 70px;
+    background-size:50px;
+  }
+  .button:hover .button-hover {
+  margin-top: 50px;
+  }
+  .product4, .soc4, .product3, .soc3 {
+  display: none;
+  }
+  .product2, .soc2 {
+  margin:0px;
+  }
+ .product { 
+   margin-right: 20px;
+   margin-top: 20px;}
+}
+
+             /* MINI LÄGET (MOBIL) 1 KOLUMN */  
+@media all and (max-width: 670px) {
+  body {
+  padding-left: 50px;
+  padding-right: 50px;
+  }
+  .outer {
+  width: 300px;
+  }
+  header{
+    position: relative;
+  }
+  .log-head{
+    height: 50px;
+    min-width: 80%;
+  }
+  #logo {
+    height: 60px;
+    width: 50px;
+  }
+  .button-head, .button {
+  display: none;
+  }
+  .mobile-menu {
+  display: block;
+  }
+  .product4, .soc4, .product3, .soc3, .product2, .soc2 {
+  display: none;
+  }
+  .product1, .soc1 {
+  margin:0px;
+  }
+  .prod-info {
+  top: 370px;
+  left: 25px;
+  padding-right: 15px;
+  }
+  #add {
+  margin-right: 0px;
+  right: 0px;
+  }
+  .product {
+    margin-top: 20px;
+  }
+  footer {
+    margin-top: 250px;
+  }
+  
+}
+
+
+
+
+
+
+
+
+
+
+/*
+1100
+825
+550
+275
+en kolumn=275px
+*/
